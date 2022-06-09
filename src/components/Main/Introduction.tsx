@@ -36,7 +36,7 @@ const Introduction: FunctionComponent = function () {
 
         <div>
           <SubTitle>Nice to Meet You,</SubTitle>
-          <Title>I'm Junior Frontend Developer Haesung.</Title>
+          <Title>I'm Junior Frontend Developer Hae-sung.</Title>
         </div>
       </Wrapper>
     </Background>
