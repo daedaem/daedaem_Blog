@@ -1,4 +1,4 @@
-import React, { FunctionComponents } from 'react'
+import React, { FunctionComponent } from 'react'
 import styled from '@emotion/styled'
 
 const FooterWrapper = styled.div`
@@ -9,8 +9,12 @@ const FooterWrapper = styled.div`
   font-size: 15px;
   text-align: center;
   line-height: 1.5;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
 `
-const Footer: FunctionComponents = function () {
+const Footer: FunctionComponent = function () {
   return (
     <FooterWrapper>
       Thank You for Visiting My Blog, Have a Good Day 😆
